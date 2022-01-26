@@ -19,7 +19,7 @@ body{
     border: 2px solid transparent;
     padding: 10px 30px;
     color: rgb(255, 255, 255);
-    margin: 30px;
+    /* margin: 30px; */
 
 }
 .main-button :hover{
@@ -168,3 +168,23 @@ body{
     }
 
 }
+
+
+@media only screen and (max-width: 900px) {
+   .main-button{
+       display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+   }
+   .button{
+       height: auto;
+   }
+   .name{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   .picture-detail{
+       margin-top: 40px;
+   }
+   
+  }
